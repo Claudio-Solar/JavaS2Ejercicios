@@ -46,18 +46,18 @@ public class Java2ejercicio2{
                                    "Cancer","LEO","VIRGO","LIBRA","ESCORPIO",
                                    "Sagitario","Capricornio","Acuario","Piscis"};
           
-        String [] horoscopo = {"Horóscopo de Aries",
-                               "Horóscopo de Tauro",
-                               "Horóscopo de Gemenis",
-                               "Horóscopo de Cancer",
-                               "Horóscopo de LEO",
-                               "Horóscopo de VIRGO",
+        String [] horoscopo = {"Horóscopo de Aries: Este dia estas de suerte",
+                               "Horóscopo de Tauro:  Este dia ganaras la loteria",
+                               "Horóscopo de Gemenis: Este dia cumpliras tus metas",
+                               "Horóscopo de Cancer: Este dia encontraras el amor",
+                               "Horóscopo de LEO: Este dia tendras una racha de suerte",
+                               "Horóscopo de VIRGO: Este dia sera el mejor para ti ",
                                "Horóscopo de LIBRA: Este día aprenderas a programar",
-                               "Horóscopo de ESCORPIO",
-                               "Horóscopo de Sagitario",
-                               "Horóscopo de Capricornio",
-                               "Horóscopo de Acuario",
-                               "Horóscopo de Piscis"};
+                               "Horóscopo de ESCORPIO: Este dia planificaras un viaje ",
+                               "Horóscopo de Sagitario: Este dia reconoceran tu esfuerzo",
+                               "Horóscopo de Capricornio: Este dia lograras tus sueños",
+                               "Horóscopo de Acuario: Este dia llegaras muy lejos",
+                               "Horóscopo de Piscis: Este dia cumpliras tus onjetivos" };
         
         Scanner scTeclado = new Scanner (System.in);
         
