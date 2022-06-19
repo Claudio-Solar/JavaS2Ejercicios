@@ -20,8 +20,8 @@ public class Java2Ejerccio1{
     
     public static void MenuPrincipal(){
         
-        int op = 0;
-        float numero1 = 0, numero2 = 0;
+        int op ;
+        float numero1, numero2;
         
         Scanner scTeclado = new Scanner (System.in);
         
@@ -32,6 +32,7 @@ public class Java2Ejerccio1{
             System.out.println("[3] Multiplicacion");
             System.out.println("[4] Division"); 
             System.out.println("[5] Salir"); 
+            System.out.println("============================"); 
             System.out.print  ("Ingrese la Opcion: "); 
             op = scTeclado.nextInt();
             
@@ -67,8 +68,11 @@ public class Java2Ejerccio1{
         float suma = numParam1 +numParam2;
         String respuesta = "La Suma es :" + suma;
         
+        
         return respuesta;
+        
     }
+    
     
     public static String RestaDosNumeros(float numParam1, float numParam2){
     
