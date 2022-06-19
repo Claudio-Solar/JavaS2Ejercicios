@@ -20,7 +20,7 @@ public class Java2Ejerccio1{
     
     public static void MenuPrincipal(){
         
-        int op ;
+        int opcion ;
         float numero1, numero2;
         
         Scanner scTeclado = new Scanner (System.in);
@@ -34,14 +34,14 @@ public class Java2Ejerccio1{
             System.out.println("[5] Salir"); 
             System.out.println("============================"); 
             System.out.print  ("Ingrese la Opcion: "); 
-            op = scTeclado.nextInt();
+            opcion = scTeclado.nextInt();
             
-            if(op >= 1 && op <=4){
+            if(opcion >= 1 && opcion <=4){
                 System.out.print("Ingrese el Numero 1: ");
                 numero1 = scTeclado.nextFloat();
                 System.out.print("Ingrese el Numero 2: ");
                 numero2 = scTeclado.nextFloat();
-                switch(op){
+                switch(opcion){
                     case 1: MostrarResultado(SumarDosNumeros(numero1, numero2));
                             break;
                     case 2: MostrarResultado(RestaDosNumeros(numero1, numero2));
@@ -58,7 +58,7 @@ public class Java2Ejerccio1{
                 }
             }
             
-        }while(op != 5);
+        }while(opcion != 5);
         System.out.println("*******FIN PROGRAMA******");
         
     }
